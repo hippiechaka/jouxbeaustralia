@@ -74,7 +74,7 @@
 
  <!-- LEFT -->
 
- <div class="column_1_2 bgCian left">
+ <!-- <div class="column_1_2 bgCian left">
 
  	<div class="half_safe_area right">
  		<div class="contactoTxt">
@@ -89,7 +89,7 @@
  		</div>
  	</div>
 
- </div>
+ </div> -->
 
 
 <!-- RIGHT -->
