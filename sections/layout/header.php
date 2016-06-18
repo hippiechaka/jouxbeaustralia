@@ -1,0 +1,36 @@
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/logo_jouxbe.png" alt="Jouxbe Australia"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="./">Home</a></li>
+          <li><a href="about-us.html" class="<?php if($section=='about-us'){ echo("current"); }?>">About Us</a></li>
+          <li><a href="buying-process.html" class="<?php if($section=='buying-process'){ echo("current"); }?>">Buying process</a></li>
+          <li><a href="products.html" class="<?php if($section=='products'){ echo("current"); }?>">Products</a></li>
+          <li><a href="brochure.html" class="<?php if($section=='brochure'){ echo("current"); }?>">Brochure</a></li>
+          <li><a href="contact-us.html" class="<?php if($section=='contact-us'){ echo("current"); }?>">Contact Us</a></li>
+        </ul>
+        <form class="navbar-form navbar-right" role="form" action="">
+          <div class="form-group">
+            <input type="text" placeholder="Search" class="form-control">
+          </div>
+          <!-- <div class="form-group">
+            <input type="password" placeholder="Password" class="form-control">
+          </div> -->
+          <button type="submit" class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+
+      </div><!--/.navbar-collapse -->
+    </div>
+  </nav>
+</header>
