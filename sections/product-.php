@@ -7,7 +7,7 @@
 
 <section id="products">
 
-<div class="categorias blackBase">
+<div class="categorias padding10">
 
     <div id="filters" class="button-group">
       <a class="button is-checked" href="products.html">Bangles</a>

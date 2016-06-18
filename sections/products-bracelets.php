@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/blueimp-products.min.css">
+<link rel="stylesheet" href="css/blueimp-gallery.min.css">
 <link rel="stylesheet" href="css/salvattore.css">
 
 <div id="Bracelets_header" class="productsHeader">
@@ -7,7 +7,7 @@
 
 <section id="products">
 
-<div class="categorias blackBase">
+<div class="categorias padding10">
 
     <div id="filters" class="button-group">
       <a class="button" href="products.html">Bangles</a>
@@ -77,7 +77,7 @@
 <div class="clear" style="height:80px;"></div>
 
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-<div id="blueimp-products" class="blueimp-products blueimp-products-controls">
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
     <!-- <h3 class="title"></h3> -->
     <a class="prev">‹</a>
@@ -90,7 +90,7 @@
 
 <div style="clear:both;"></div>
 
-<script src="js/blueimp-products.min.js"></script>
+<script src="js/blueimp-gallery.min.js"></script>
 
 <script src="js/salvattore.min.js"></script>
 
