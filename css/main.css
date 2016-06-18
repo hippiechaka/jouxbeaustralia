@@ -9,6 +9,9 @@ Custom Styles BY HIPPIEPERRO
 header{
 	height:90px;
 }
+footer{
+	background:#d9d9d9; 
+}
 #navbar{
 	min-height:90px !important;
 }
@@ -227,4 +230,6 @@ section#gallery{background:url(../images/pattern.gif)repeat;}
 .button-group .button {float:left;border-radius:0;margin-left:0;margin-right:1px;}
 .button-group .button:first-child {border-radius:3px 0 0 3px;}
 .button-group .button:last-child {border-radius:0 3px 3px 0;}
-
+/*
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ABOUT US!
+*/
