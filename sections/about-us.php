@@ -3,18 +3,14 @@
 <section class="feature-section feature-section-6">
   <div class="container">
     <div class="row eqh fs-equalize-element">
-      <div class="col-md-4 l" style="height: 599px;"><img src="images/iphone-img.png" class="img-responsive" alt="Screen image"></div>
+      <div class="col-md-4 l" style="height: 599px;"><img src="images/about-us-img.png" class="img-responsive" alt="Jouxbe"></div>
       <div class="col-md-7 col-md-offset-1 r" style="height: 599px;">
         <div class="content vm-item">
-          <h2 class="title">Features display section</h2>
-          <p class="title-sub">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr diam nonumyeirmod tempor invidunt ut labore etdolore.
-          </p>
           
           <div class="row">
             <div class="col-sm-6">
               <div class="info-box info-box5">
-                <div class="img"><i class="fa fa-television"></i></div>
+                <div class="img"><img src="images/about-us-icon.png" alt="Icono"></div>
                 <div class="info">
                   <h2 class="hd">Acerca de Nosotros</h2>
                   <p class="sub-txt">Muchas gracias  por el interés en Jouxbe.  Jouxbe es una compañía pionera en el ramo joyero. Nuestra primer fábrica fue establecida en la ciudad de Guadalajara México en el año  1985. Hasta la fecha sigue siendo administrada por sus fundadores,  desde entonces hemos crecido y ahora tenemos presencia en varios países del continente Americano y Europeo.</p>
@@ -25,7 +21,7 @@
             
             <div class="col-sm-6">
               <div class="info-box info-box5">
-                <div class="img"><i class="fa fa-object-group"></i></div>
+                <div class="img"><img src="images/about-us-icon.png" alt="Icono"></div>
                 <div class="info">
                   <h2 class="hd">About Us</h2>
                   <p class="sub-txt">Thank you for your interest in Jouxbe. We are a pioneer company in the jewelry industry. Our very first factory opened in the city of Guadalajara Mexico in the year 1985. To date, still under management by its founders, we have grown and now have a presence in various countries  in the American and European continents.</p>

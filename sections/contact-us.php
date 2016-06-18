@@ -25,18 +25,18 @@
       $body   = file_get_contents('sections/forms/email.php');
       $body     = str_replace( array('{dominio}', '{fecha}', '{nombre}', '{email}' , '{ocupacion}', '{ciudad}', '{edad}', '{comentario}' ), array($dominio, $fecha, $nombre, $email, $ocupacion, $ciudad, $edad, $comentario), $body );  
       
-      $headers = "From: CINSA <info@cinsa.com.mx>\n";
-      $headers .= "Reply-To:CINSA <no-reply@cinsa.com.mx>\n";
+      $headers = "From: JOUXBE <info@jouxbeaustralia.com>\n";
+      $headers .= "Reply-To:JOUXBE <no-reply@jouxbeaustralia.com>\n";
       $headers .= 'Content-Type: text/html;';
       $headers .= "MIME-Version: 1.0\n";
       $headers .= "Content-Transfer-Encoding: 8bit\n";
       $headers .= "X-Priority: 1\n";
       $headers .= "X-Mailer: PHPMailer [version 1.72]\n";
       $headers .= "X-AntiAbuse: This header was added to track abuse, please include it with any abuse report\n";
-      $headers .= "X-AntiAbuse: Primary Hostname - cinsa.com.mx\n";
-      $headers .= "X-AntiAbuse: Original Domain - cinsa.com.mx\n";
+      $headers .= "X-AntiAbuse: Primary Hostname - jouxbeaustralia.com\n";
+      $headers .= "X-AntiAbuse: Original Domain - jouxbeaustralia.com\n";
       $headers .= "X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]\n";
-      $headers .= "X-AntiAbuse: Sender Address Domain - cinsa.com.mx\n";
+      $headers .= "X-AntiAbuse: Sender Address Domain - jouxbeaustralia.com\n";
       $headers .= "X-Source: \n";
       $headers .= "X-Source-Args: \n";
       $headers .= "X-Source-Dir: \n";
@@ -44,28 +44,7 @@
       $subject  = "Correo de contacto - ".$nombre;
       
       mail($emails , $subject, $body, $headers) or die("Error Send mail");    
-      $enviado = 1;
-    
-    
-    
-/*      require_once("sections/forms/class.phpmailer.php");   
-      $current_datetime = date("d-m-Y H:i:s");    
-      $msg = utf8_decode($body);    
-      $mail = new PHPMailer();  
-      $mail->IsSMTP();  
-      $mail->Host = "kubik.mx";   
-      $mail->SMTPAuth = true;   
-      $mail->Username = "x@kubik.mx";   
-      $mail->Password = "3ntraR";   
-      $mail->SetFrom("info@kubik.mx", "Kubik Interactive");   
-      $mail->AddReplyTo( $email, $nombre);  
-      $mail->AddAddress('info@kubik.mx', 'Kubik Interactive');  
-      $mail->AddAddress('adrian@kubik.mx', 'Kubik Interactive');  
-      $mail->AddAddress($_REQUEST['email'], $nombre);   
-      $mail->Subject = "Correo de contacto - ".$nombre;   
-      $mail->MsgHTML($msg);   
-      $mail->AltBody = "SU BANDEJA DE ENTRADA NO PERMITE EL CONTENIDO HTML";    
-      if ($mail->Send()) {    $enviado = 1; }   */      
+      $enviado = 1;     
     
  
       
@@ -74,22 +53,23 @@
 
  <!-- LEFT -->
 
- <!-- <div class="column_1_2 bgCian left">
+ <div class="column_1_2 bgCian left">
 
  	<div class="half_safe_area right">
  		<div class="contactoTxt">
 	 		<h1>Escríbenos</h1>
-	 		<h3>En Cinsa queremos estar</br><span>Cerca de ti</span></h3>
+      <h2>Jouxbe</h2>
+	 		<h3>Mexican Jewellery</br><span>Gold Layered</span></h3>
 	 		<div class="redesContacto">
-				<a target="_blank" href="https://www.facebook.com/pages/Cinsa/407744489364111" target="_blank" class="BTN-redes" id="facebook" title="Síguenos en facebook"></a>
-				<a target="_blank" href="http://www.pinterest.com/CINSA_hogar/" class="BTN-redes" id="pinterest" title="Síguenos en pinterest"></a>
-				<a target="_blank" href="http://instagram.com/cinsa_hogar" class="BTN-redes" id="instagram" title="Síguenos en instagram"></a>
-				<a target="_blank" href="https://www.youtube.com/watch?v=64Q-FrUphwU" class="BTN-redes" id="youtube" title="Síguenos en youtube"></a>
+				<a target="_blank" href="" class="BTN-redes" id="facebook" title="Síguenos en facebook"></a>
+				<a target="_blank" href="" class="BTN-redes" id="pinterest" title="Síguenos en pinterest"></a>
+				<a target="_blank" href="" class="BTN-redes" id="instagram" title="Síguenos en instagram"></a>
+				<a target="_blank" href="" class="BTN-redes" id="youtube" title="Síguenos en youtube"></a>
 			</div>
  		</div>
  	</div>
 
- </div> -->
+ </div>
 
 
 <!-- RIGHT -->
