@@ -1,27 +1,27 @@
-<link rel="stylesheet" href="css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="css/blueimp-products.min.css">
 <link rel="stylesheet" href="css/salvattore.css">
 
-<div id="Bangles_header" class="galleryHeader">
-  <h1>Bangles</h1>  
+<div id="Bracelets_header" class="productsHeader">
+  <h1>Bracelets</h1>  
 </div>
 
-<section id="gallery">
+<section id="products">
 
 <div class="categorias blackBase">
 
     <div id="filters" class="button-group">
-      <a class="button is-checked" href="gallery.html">Bangles</a>
-      <a class="button" href="gallery-earrings.html">Earrings</a>
-      <a class="button" href="gallery-chain-necklaces.html">Chain Necklaces</a>
-      <a class="button" href="gallery-jewellery-sets.html">Jewellery Sets</a>
-      <a class="button" href="gallery-rose-jewellery.html">Rose Jewellery</a>
-      <a class="button" href="gallery-watches.html">Watches</a>
-      <a class="button" href="gallery-charms.html">Charms</a>
-      <a class="button" href="gallery-religious.html">Religious</a>
-      <a class="button" href="gallery-customized-jewellery.html">Customized Jewellery</a>
-      <a class="button" href="gallery-rings.html">Rings</a>
-      <a class="button" href="gallery-bracelets.html">Bracelets</a>
-      <a class="button" href="gallery-various.html">Various</a>
+      <a class="button" href="products.html">Bangles</a>
+      <a class="button" href="products-earrings.html">Earrings</a>
+      <a class="button" href="products-chain-necklaces.html">Chain Necklaces</a>
+      <a class="button" href="products-jewellery-sets.html">Jewellery Sets</a>
+      <a class="button" href="products-rose-jewellery.html">Rose Jewellery</a>
+      <a class="button" href="products-watches.html">Watches</a>
+      <a class="button" href="products-charms.html">Charms</a>
+      <a class="button" href="products-religious.html">Religious</a>
+      <a class="button" href="products-customized-jewellery.html">Customized Jewellery</a>
+      <a class="button" href="products-rings.html">Rings</a>
+      <a class="button is-checked" href="products-bracelets.html">Bracelets</a>
+      <a class="button" href="products-various.html">Various</a>
     </div>
 
 </div>
@@ -77,7 +77,7 @@
 <div class="clear" style="height:80px;"></div>
 
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+<div id="blueimp-products" class="blueimp-products blueimp-products-controls">
     <div class="slides"></div>
     <!-- <h3 class="title"></h3> -->
     <a class="prev">‹</a>
@@ -90,7 +90,7 @@
 
 <div style="clear:both;"></div>
 
-<script src="js/blueimp-gallery.min.js"></script>
+<script src="js/blueimp-products.min.js"></script>
 
 <script src="js/salvattore.min.js"></script>
 

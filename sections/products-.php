@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="css/blueimp-products.min.css">
 <link rel="stylesheet" href="css/salvattore.css">
 
-<div id="Rings_header" class="productsHeader">
-  <h1>Rings</h1>  
+<div id="Bangles_header" class="productsHeader">
+  <h1>Bangles</h1>  
 </div>
 
 <section id="products">
@@ -10,7 +10,7 @@
 <div class="categorias blackBase">
 
     <div id="filters" class="button-group">
-      <a class="button" href="products.html">Bangles</a>
+      <a class="button is-checked" href="products.html">Bangles</a>
       <a class="button" href="products-earrings.html">Earrings</a>
       <a class="button" href="products-chain-necklaces.html">Chain Necklaces</a>
       <a class="button" href="products-jewellery-sets.html">Jewellery Sets</a>
@@ -19,7 +19,7 @@
       <a class="button" href="products-charms.html">Charms</a>
       <a class="button" href="products-religious.html">Religious</a>
       <a class="button" href="products-customized-jewellery.html">Customized Jewellery</a>
-      <a class="button is-checked" href="products-rings.html">Rings</a>
+      <a class="button" href="products-rings.html">Rings</a>
       <a class="button" href="products-bracelets.html">Bracelets</a>
       <a class="button" href="products-various.html">Various</a>
     </div>
