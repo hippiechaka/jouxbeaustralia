@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/font-awesome-4.6.2/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Trirong:200,400,700,900" rel="stylesheet">
 	<!--OWL -->
 	<link rel="stylesheet" href="css/owl.carousel.css">
 

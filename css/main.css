@@ -195,8 +195,12 @@ footer{
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: GALLERY!
 */
 section#gallery{background:url(../images/pattern.gif)repeat;}
-#galleryHeader{width:100%;height:180px;background:url(../images/galeria_header.jpg)#f0ddbd top center no-repeat;background-size:100%;border-bottom: 1px solid #fff;}
+.galleryHeader{width:100%;height:180px;background:#f0ddbd top center no-repeat;background-size:100%;border-bottom: 1px solid #fff;position:relative;}
+.galleryHeader img{position:absolute;display:block;top:0;left:0;width:100%;height:auto;z-index:1;}
+.galleryHeader h1, .galleryHeader h1, .galleryHeader h1{position:absolute;display:block;top:calc(50% - 40px);left:0;width:100%;height:80px;line-height:80px;text-align:center;z-index:2;color:#fff;text-shadow:1px;font-family:'Trirong';font-weight:400;text-transform:uppercase;}
 #links a.item img{width:100%;max-width:600px;height:auto;border:5px solid rgba(255,255,255,0.0);}
+
+
 .categorias{padding:30px 0;text-align:center;}
 #filters{display:inline-block;}
 .button-group .button{
@@ -209,6 +213,7 @@ section#gallery{background:url(../images/pattern.gif)repeat;}
   background: -ms-linear-gradient(top,  rgba(111,130,33,1) 0%,rgba(140,161,52,1) 100%);
   background: linear-gradient(to bottom,  rgba(111,130,33,1) 0%,rgba(140,161,52,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44d1fc', endColorstr='#157dc2',GradientType=0 );
+  width:calc(25% - 1px);
 }
 .button-group a.button:hover {
   color:#d7ecf0;
