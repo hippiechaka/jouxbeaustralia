@@ -8,12 +8,12 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src="images/logo_jouxbe.png" alt="Jouxbe Australia"></a>
+        <a class="navbar-brand" href="./"><img src="images/logo_jouxbe.png" alt="Jouxbe Australia"></a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
 
         <ul class="nav navbar-nav navbar-left">
-          <li><a href="./">Home</a></li>
+          <!-- <li><a href="./">Home</a></li> -->
           <li><a href="about-us.html" class="<?php if($section=='about-us'){ echo("current"); }?>">About Us</a></li>
           <li><a href="buying-process.html" class="<?php if($section=='buying-process'){ echo("current"); }?>">Buying process</a></li>
           <li><a href="products.html" class="<?php if($section=='products'){ echo("current"); }?>">Products</a></li>
