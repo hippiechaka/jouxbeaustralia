@@ -32,7 +32,7 @@
 <a class="button" href="products-customized-jewellery.html">Customized Jewellery</a>
 <a class="button" href="products-rings.html">Rings</a>
 <a class="button" href="products-bracelets.html">Bracelets</a>
-<a class="button is-checked" href="products-various.html">Various</a>
+<a class="button" href="products-various.html">Various</a>
 -->
 
     <li class="banner-md">

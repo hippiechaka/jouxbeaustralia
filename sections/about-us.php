@@ -1,12 +1,12 @@
   
 <!-- Features -->
-<section class="feature-section feature-section-6">
   <div class="container">
     <div class="row eqh fs-equalize-element">
       <div class="col-md-4 l" style="height: 599px;"><img src="images/about-us-img.png" class="img-responsive" alt="Jouxbe"></div>
       <div class="col-md-7 col-md-offset-1 r" style="height: 599px;">
         <div class="content vm-item">
           
+          <!--
           <div class="row">
             <div class="col-sm-6">
               <div class="info-box info-box5">
@@ -16,10 +16,11 @@
                   <p class="sub-txt">Muchas gracias  por el interés en Jouxbe.  Jouxbe es una compañía pionera en el ramo joyero. Nuestra primer fábrica fue establecida en la ciudad de Guadalajara México en el año  1985. Hasta la fecha sigue siendo administrada por sus fundadores,  desde entonces hemos crecido y ahora tenemos presencia en varios países del continente Americano y Europeo.</p>
                   <p class="sub-txt">Nosotros en Jouxbe somos especialistas en la fabricación y distribución de joyería en oro laminado. Oro laminado rosa, blanco y amarillo. Tenemos un gran surtido en joyería y joyería personalizada, todo con la más alta calidad.   Lo que es más importante para nosotros es que tu negocio también crezca con productos, calidad y experiencia que aquí te ofrecemos en Jouxbe</p>
                 </div>
-              </div><!-- /.info-box -->   
+              </div>
             </div>
+            -->
             
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <div class="info-box info-box5">
                 <div class="img"><img src="images/about-us-icon.png" alt="Icono"></div>
                 <div class="info">
@@ -35,6 +36,5 @@
       </div><!-- /.col-lg-6 -->
     </div><!-- /.row -->
   </div><!-- /.container -->
-</section><!-- /.feature-section -->
 
 

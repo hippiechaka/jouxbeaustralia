@@ -14,7 +14,8 @@ footer{
   padding-bottom:60px;
   /*margin-top:30px;*/
 }
-section {padding-bottom:30px;clear:both;display:block;min-height:650px;}
+
+section {padding-top:10px;clear:both;display:block;min-height:650px;}
 #navbar{
 	min-height:90px !important;
 }
@@ -263,9 +264,16 @@ section#products{background:url(../images/pattern.gif)repeat;height:auto;min-hei
   margin: initial;
   padding: 0 0 0 40px;
   border-top:1px solid rgba(255,255,255,0.25);
+  text-align:center;
   }
 .navbar-footer li{display:inline-block;width:initial;}
-.navbar-footer li a{navbawidth:initial;}
+.navbar-footer li a{width:initial;}
+.navbar-footer li a.current{color:#23527c;background:#fff;cursor:default;}
+
+
+
+
+
 /*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: QUERIES!
 */
