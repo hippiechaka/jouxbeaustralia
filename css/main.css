@@ -5,7 +5,7 @@
 Custom Styles BY HIPPIEPERRO
 ==========================================================================
 */
-
+.bgCian, .cian{background-color:#21a3ce;}
 header{
 	height:90px;
 }
@@ -269,11 +269,162 @@ section#products{background:url(../images/pattern.gif)repeat;height:auto;min-hei
 .navbar-footer li{display:inline-block;width:initial;}
 .navbar-footer li a{width:initial;}
 .navbar-footer li a.current{color:#23527c;background:#fff;cursor:default;}
+/*
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: CONTACTO!
+*/
+.contactoTxt{color: #fff; text-align: right; margin-right: 20px; margin-top: 80px;min-height: 520px;}
+.contactoTxt h1{text-transform: uppercase; font-size: 80px;}
+.contactoTxt h3 span{font-size: 1.5em;}
+.graficoAvion{width: 373px; height: 270px; display:block; clear: both; position:absolute; z-index: 3; top: 460px; left: calc(50% - 300px); background:url(../images/paper_plane.png); margin-bottom: 40px;}
+.redesContacto{
+  width: 185px;
+  height: 46px;
+  display: block;
+  margin: 10px auto;
+  float: right;
+}
+.redesContacto a.BTN-redes{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+  display: block;
+  opacity: 0.7;
+  float: left;
+  margin: 3px;
+  background-color: #fff !important;
+}
+.redesContacto a.BTN-redes:hover{opacity: 1;}
+.redesContacto a#facebook:before{
+  font-family: FontAwesome;
+   content: "\f09a";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   text-align:center;
+   font-size:24px; 
 
+}
+.redesContacto a#twitter:before{
+  font-family: FontAwesome;
+   content: "\f099";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   text-align:center;
+   font-size:24px; 
 
+}
+.redesContacto a#youtube:before{
+  font-family: FontAwesome;
+   content: "\f167";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   text-align:center;
+   font-size:24px; 
 
+}
+.redesContacto a#pinterest:before{
+  font-family: FontAwesome;
+   content: "\f231";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   text-align:center;
+   font-size:24px; 
 
+}
+.redesContacto a#instagram:before{
+  font-family: FontAwesome;
+   content: "\f16d";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   text-align:center;
+   font-size:24px; 
 
+}
+#forma_contacto{
+  width: 580px;
+  height: auto;
+  margin-top: 60px;
+}
+.textocampo{
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  text-align: right;
+}
+.field{
+  width: 450px;
+  height: 20px;
+  line-height: 30px;
+  float: right;
+  background:#e2e2e2;
+  border: none;
+  padding: 5px
+}
+.fieldArea{
+  width: 450px;
+  height: 90px;
+  float: right;
+  background:#e2e2e2;
+  border: none;
+  padding: 5px
+}
+#edad{width: 450px;float: right; margin: 5px 0; font-size: 13px;}
+.contactSpace{
+  clear:both;
+  height: 5px;
+  width: 100%;
+}
+.indicacion{
+  width: 450px;
+  height: 65px;
+  line-height: 20px;
+  font-size: 12px;
+  display: block;
+  margin-left: 120px;
+  clear:both;
+}
+.sendBtn{
+  clear: both;
+  float: left;
+  margin-left: 120px;
+  width: 140px;
+  height: 50px;
+  text-align: left;
+  padding-left:38px;
+  background: url(../images/send_btn.png) no-repeat;
+  background-position: -34px 15px;
+  background-color: #21A3CE;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  cursor: pointer;
+}
+.sendBtn:hover{
+  background-position: 12px 15px;
+  background-color:#172e4f;
+  padding-left: 55px;
+}
+input.error, textarea.error, select.error{background: #F2DAE3;}
+label.error{
+  display: none;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  overflow: 0;
+}
 /*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: QUERIES!
 */
