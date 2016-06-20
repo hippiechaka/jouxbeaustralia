@@ -1,3 +1,5 @@
+</section>
+
 <footer>
 <p id="legal">Jouxbe Australia &reg; <?php echo date("Y") ?></p>
 
