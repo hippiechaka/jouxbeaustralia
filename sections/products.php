@@ -27,50 +27,50 @@
 </div>
 
 <div id="links" data-columns class="padding10">
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x842">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x408">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x221">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x450">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x350">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x253">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x600">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x260">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x550">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x360">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/bangles/image1.jpg" class="item">
+        <img src="images/products/bangles/image1_thumb.jpg">
     </a>
 	
 </div>

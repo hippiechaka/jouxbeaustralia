@@ -301,7 +301,7 @@ section#products{background:url(../images/pattern.gif)repeat;height:auto;min-hei
    padding-right: 3px;
    vertical-align: middle;
    text-align:center;
-   font-size:24px; 
+font-size: 24px;
 
 }
 .redesContacto a#twitter:before{
@@ -414,6 +414,9 @@ section#products{background:url(../images/pattern.gif)repeat;height:auto;min-hei
   background-color:#172e4f;
   padding-left: 55px;
 }
+
+
+
 input.error, textarea.error, select.error{background: #F2DAE3;}
 label.error{
   display: none;
