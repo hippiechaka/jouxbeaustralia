@@ -27,8 +27,8 @@
 </div>
 
 <div id="links" data-columns class="padding10">
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x842">
+    <a href="images/products/rings/an-012_gde.jpg" class="item">
+        <img src="images/products/rings/an-012_gde.jpg">
     </a>
     <a href="http://placehold.it/1024x800" class="item">
         <img src="http://placehold.it/600x390">
