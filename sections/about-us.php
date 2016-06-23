@@ -35,3 +35,6 @@
 
   </div><!-- /.container -->
 
+<script>
+$('.parallax-window').parallax({imageSrc: 'images/about-us-header.jpg'});  
+</script>
