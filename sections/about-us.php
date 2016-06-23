@@ -2,11 +2,11 @@
 <!-- Features -->
   <div class="container">
     <div class="row eqh fs-equalize-element">
-      <div class="col-md-4 l" style="height: 599px;"><img src="images/about-us-img.png" class="img-responsive" alt="Jouxbe"></div>
+      
       <div class="col-md-7 col-md-offset-1 r" style="height: 599px;">
         <div class="content vm-item">
           
-          <!--
+          
           <div class="row">
             <div class="col-sm-6">
               <div class="info-box info-box5">
@@ -18,9 +18,9 @@
                 </div>
               </div>
             </div>
-            -->
             
-            <div class="col-sm-12">
+            
+            <div class="col-sm-6">
               <div class="info-box info-box5">
                 <div class="img"><img src="images/about-us-icon.png" alt="Icono"></div>
                 <div class="info">
