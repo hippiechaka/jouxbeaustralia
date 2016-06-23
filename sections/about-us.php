@@ -1,13 +1,13 @@
-  
+<script src="js/parallax.js"></script>
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/about-us-header.jpg"></div>
+<div class="whitespace" style="height:30px;"></div>
+
+
 <!-- Features -->
   <div class="container">
-    <div class="row eqh fs-equalize-element">
-      
-      <div class="col-md-7 col-md-offset-1 r" style="height: 599px;">
-        <div class="content vm-item">
-          
-          
+
           <div class="row">
+
             <div class="col-sm-6">
               <div class="info-box info-box5">
                 <div class="img"><img src="images/about-us-icon.png" alt="Icono"></div>
@@ -32,9 +32,6 @@
             </div>
 
           </div><!-- /.row -->
-        </div><!-- /.content -->
-      </div><!-- /.col-lg-6 -->
-    </div><!-- /.row -->
-  </div><!-- /.container -->
 
+  </div><!-- /.container -->
 

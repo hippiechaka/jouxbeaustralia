@@ -52,7 +52,8 @@
 	<link rel="stylesheet" href="css/owl.carousel.css">
 
 
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     
     
@@ -74,8 +75,7 @@
     <?php require_once "sections/layout/footer.php"; ?>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 
