@@ -27,50 +27,17 @@
 </div>
 
 <div id="links" data-columns class="padding10">
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x842">
+    <a href="images/products/watches/ex-016.jpg" class="item" title="ex-016">
+        <img src="images/products/watches/ex-016.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/watches/ex-017.jpg" class="item" title="ex-017">
+        <img src="images/products/watches/ex-017.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x408">
+    <a href="images/products/watches/ex-018.jpg" class="item" title="ex-018">
+        <img src="images/products/watches/ex-018.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x221">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x450">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x350">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x253">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x600">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x260">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x550">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x360">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/watches/ex-019.jpg" class="item" title="ex-019">
+        <img src="images/products/watches/ex-019.jpg">
     </a>
 	
 </div>
