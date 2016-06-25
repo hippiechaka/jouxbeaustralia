@@ -27,50 +27,44 @@
 </div>
 
 <div id="links" data-columns class="padding10">
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x842">
+    <a href="images/products/earrings/an-020.jpg" class="item" title="an-020">
+        <img src="images/products/earrings/an-020.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/earrings/an-020.jpg" class="item" title="an-020">
+        <img src="images/products/earrings/an-020.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x408">
+    <a href="images/products/earrings/an-021.jpg" class="item" title="an-021">
+        <img src="images/products/earrings/an-021.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x221">
+    <a href="images/products/earrings/an-022.jpg" class="item" title="an-022">
+        <img src="images/products/earrings/an-022.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x450">
+    <a href="images/products/earrings/an-024.jpg" class="item" title="an-024">
+        <img src="images/products/earrings/an-024.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x350">
+    <a href="images/products/earrings/an-023.jpg" class="item" title="an-023">
+        <img src="images/products/earrings/an-023.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x253">
+    <a href="images/products/earrings/an-025.jpg" class="item" title="an-025">
+        <img src="images/products/earrings/an-025.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x600">
+    <a href="images/products/earrings/an-026.jpg" class="item" title="an-026">
+        <img src="images/products/earrings/an-026.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/earrings/an-027.jpg" class="item" title="an-027">
+        <img src="images/products/earrings/an-027.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x260">
+    <a href="images/products/earrings/an-028.jpg" class="item" title="an-028">
+        <img src="images/products/earrings/an-028.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
+    <a href="images/products/earrings/an-029.jpg" class="item" title="an-029">
+        <img src="images/products/earrings/an-029.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x550">
+    <a href="images/products/earrings/an-030.jpg" class="item" title="an-030">
+        <img src="images/products/earrings/an-030.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x360">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/earrings/an-031.jpg" class="item" title="an-031">
+        <img src="images/products/earrings/an-031.jpg">
     </a>
 	
 </div>
@@ -79,7 +73,7 @@
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
-    <!-- <h3 class="title"></h3> -->
+    <h3 class="title"></h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
