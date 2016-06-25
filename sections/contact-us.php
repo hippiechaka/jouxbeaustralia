@@ -62,9 +62,10 @@
 	 		<h3>Mexican Jewellery</br><span>Gold Layered</span></h3>
 	 		<div class="redesContacto">
 				<a target="_blank" href="" class="BTN-redes" id="facebook" title="Síguenos en facebook"></a>
-				<a target="_blank" href="" class="BTN-redes" id="pinterest" title="Síguenos en pinterest"></a>
+        <p>Síguenos!</p>
+				<!-- <a target="_blank" href="" class="BTN-redes" id="pinterest" title="Síguenos en pinterest"></a>
 				<a target="_blank" href="" class="BTN-redes" id="instagram" title="Síguenos en instagram"></a>
-				<a target="_blank" href="" class="BTN-redes" id="youtube" title="Síguenos en youtube"></a>
+				<a target="_blank" href="" class="BTN-redes" id="youtube" title="Síguenos en youtube"></a> -->
 			</div>
  		</div>
  	</div>
