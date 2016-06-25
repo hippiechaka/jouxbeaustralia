@@ -34,6 +34,7 @@
           </div><!-- /.row -->
 
   </div><!-- /.container -->
+<div class="whitespace" style="height:80px;"></div>
 
 <script>
 $('.parallax-window').parallax({imageSrc: 'images/about-us-header.jpg'});  

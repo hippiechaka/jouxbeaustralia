@@ -5,7 +5,8 @@
 Custom Styles BY HIPPIEPERRO
 ==========================================================================
 */
-.bgCian, .cian{background-color:#21a3ce;}
+.bgCian, .cian{/*background-color:#21a3ce;*/background:rgba(170,181,185,0.25);min-height: 640px;}
+.half_safe_area.left{max-width:100%;min-width:50%;position:relative;top:0;left:0;}
 header{
 	height:90px;
 }
@@ -275,7 +276,18 @@ section#products{/*background:url(../images/pattern.gif)repeat;*/height:auto;min
 .contactoTxt{color: #fff; text-align: right; margin-right: 20px; margin-top: 80px;min-height: 520px;}
 .contactoTxt h1{text-transform: uppercase; font-size: 80px;}
 .contactoTxt h3 span{font-size: 1.5em;}
-.graficoAvion{width: 373px; height: 270px; display:block; clear: both; position:absolute; z-index: 3; top: 460px; left: calc(50% - 300px); background:url(../images/paper_plane.png); margin-bottom: 40px;}
+#jouxbeContact {
+    width: 373px;
+    height: 270px;
+    display: block;
+    clear: both;
+    position: relative;
+    z-index: 3;
+    top: -50px;
+    left: calc(50% - 110px);
+    background: url(../images/jouxbe_contact.png);
+    margin-bottom: 0px;
+}
 .redesContacto{
   width: 185px;
   height: 46px;
@@ -345,7 +357,7 @@ font-size: 24px;
 
 }
 #forma_contacto{
-  width: 580px;
+  width: 100%;
   height: auto;
   margin-top: 60px;
 }
@@ -357,30 +369,30 @@ font-size: 24px;
   text-align: right;
 }
 .field{
-  width: 450px;
-  height: 20px;
+  width: 300px;
+  height: 30px;
   line-height: 30px;
-  float: right;
+  /*float: right;*/
   background:#e2e2e2;
   border: none;
   padding: 5px
 }
 .fieldArea{
-  width: 450px;
+  width: 300px;
   height: 90px;
-  float: right;
+  /*float: right;*/
   background:#e2e2e2;
   border: none;
   padding: 5px
 }
-#edad{width: 450px;float: right; margin: 5px 0; font-size: 13px;}
+#edad{width: 300px;/*float: right;*/ margin: 5px 0; font-size: 13px;}
 .contactSpace{
   clear:both;
   height: 5px;
   width: 100%;
 }
 .indicacion{
-  width: 450px;
+  width: 300px;
   height: 65px;
   line-height: 20px;
   font-size: 12px;
@@ -395,7 +407,7 @@ font-size: 24px;
   width: 140px;
   height: 50px;
   text-align: left;
-  padding-left:38px;
+  padding-left:42px;
   background: url(../images/send_btn.png) no-repeat;
   background-position: -34px 15px;
   background-color: #21A3CE;
@@ -412,7 +424,7 @@ font-size: 24px;
 .sendBtn:hover{
   background-position: 12px 15px;
   background-color:#172e4f;
-  padding-left: 55px;
+  padding-left: 60px;
 }
 
 
@@ -430,7 +442,7 @@ label.error{
 }
 
 .parallax-window {
-    min-height: 180px;
+    min-height: 240px;
 }
 /*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: QUERIES!

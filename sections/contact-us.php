@@ -15,7 +15,7 @@
       $dominio     = $domain;
       $fecha       = date('d/m/Y');
       $nombre      = $_REQUEST['nombre'];
-      $ocupacion   = $_REQUEST['ocupacion'];
+      // $ocupacion   = $_REQUEST['ocupacion'];
       $email       = $_REQUEST['email'];
       $ciudad      = $_REQUEST['ciudad'];
       $edad        = $_REQUEST['edad'];
@@ -23,7 +23,9 @@
       
       
       $body   = file_get_contents('sections/forms/email.php');
-      $body     = str_replace( array('{dominio}', '{fecha}', '{nombre}', '{email}' , '{ocupacion}', '{ciudad}', '{edad}', '{comentario}' ), array($dominio, $fecha, $nombre, $email, $ocupacion, $ciudad, $edad, $comentario), $body );  
+      //, '{ocupacion}'
+      // $ocupacion,
+      $body     = str_replace( array('{dominio}', '{fecha}', '{nombre}', '{email}' , '{ciudad}', '{edad}', '{comentario}' ), array($dominio, $fecha, $nombre, $email, $ciudad, $edad, $comentario), $body );  
       
       $headers = "From: JOUXBE <info@jouxbeaustralia.com>\n";
       $headers .= "Reply-To:JOUXBE <no-reply@jouxbeaustralia.com>\n";
@@ -57,15 +59,10 @@
 
  	<div class="half_safe_area right">
  		<div class="contactoTxt">
-	 		<h1>Escríbenos</h1>
-      <h2>Jouxbe</h2>
+      <div id="jouxbeContact"><!-- Jouxbe --></div>
 	 		<h3>Mexican Jewellery</br><span>Gold Layered</span></h3>
 	 		<div class="redesContacto">
-				<a target="_blank" href="" class="BTN-redes" id="facebook" title="Síguenos en facebook"></a>
-        <p>Síguenos!</p>
-				<!-- <a target="_blank" href="" class="BTN-redes" id="pinterest" title="Síguenos en pinterest"></a>
-				<a target="_blank" href="" class="BTN-redes" id="instagram" title="Síguenos en instagram"></a>
-				<a target="_blank" href="" class="BTN-redes" id="youtube" title="Síguenos en youtube"></a> -->
+				<a target="_blank" href="" class="BTN-redes" id="facebook" title="Follow Us on facebook"></a>
 			</div>
  		</div>
  	</div>
@@ -91,37 +88,39 @@
   }else{
 ?>
   <form action="" method="post" id="forma_contacto">
-    <label class="textocampo">Nombre<span class="txtMagenta">*</span>:</label>
-    <input type="text" class="field required" name="nombre" title="Este campo es requerido" value="" />
+    <label class="textocampo">Name<span class="txtMagenta">*</span>:</label>
+    <input type="text" class="field required" name="nombre" title="This field is required" value="" />
     <div class="contactSpace"></div>
     <label class="textocampo">Email<span class="txtMagenta">*</span>:</label>
-    <input type="text" class="field required email" name="email" title="Este campo es requerido" value="" />
+    <input type="text" class="field required email" name="email" title="valid e-mail please" value="" />
     <div class="contactSpace"></div>
+    <!--
     <label class="textocampo">Ocupación<span class="txtMagenta">*</span>:</label>
-    <input type="text" class="field required" name="ocupacion" title="Este campo es requerido" value="" />
+    <input type="text" class="field required" name="ocupacion" title="This field is required" value="" />
     <div class="contactSpace"></div>
-    <label class="textocampo">Ciudad<span class="txtMagenta">*</span>:</label>
-    <input type="text" class="field required" name="ciudad" title="Este campo es requerido" value="" />
+    -->
+    <label class="textocampo">City<span class="txtMagenta">*</span>:</label>
+    <input type="text" class="field required" name="ciudad" title="This field is required" value="" />
     <div class="contactSpace"></div>
-    <label class="textocampo">Edad<span class="txtMagenta">*</span>:</label>
+    <label class="textocampo">Age<span class="txtMagenta">*</span>:</label>
     <select name="edad" id="edad" class="required">
-      <option value="">Seleccione su edad</option>
-      <option value="20 a 29 años">20 a 29 años</option>
-      <option value="30 a 49 años">30 a 49 años</option>
-      <option value="50 a más años">50 a más años</option>
+      <option value="">Select one</option>
+      <option value="20 a 29 años">20 - 29 yo</option>
+      <option value="30 a 49 años">30 - 49 yo</option>
+      <option value="50 a más años">50+ yo</option>
     </select>
     <div class="contactSpace"></div>
-    <label class="textocampo">Comentarios<span class="txtMagenta">*</span>:</label>
-    <textarea class="fieldArea required" name="comentario" title="Este campo es requerido"></textarea>
+    <label class="textocampo">Comments<span class="txtMagenta">*</span>:</label>
+    <textarea class="fieldArea required" name="comentario" title="This field is required"></textarea>
     <div class="contactSpace"></div>
 
     <p class="indicacion">
       Los campos señalados con <span class="txtMagenta">*</span> son obligatorios<br>
-      <input type="checkbox" name="avisoPrivacidad" value="avisoPrivacidad" class="required"> Leí y acepto el tratamiendo de mis datos de acuerdo al <a href="POLITICADEPRIVACIDADGrupoGIS.pdf" target="blank">AVISO DE PRIVACIDAD</a><span class="txtMagenta">*</span>
+      <input type="checkbox" name="avisoPrivacidad" value="avisoPrivacidad" class="required"> Leí y acepto el tratamiendo de mis datos de acuerdo al <a href="" target="blank">AVISO DE PRIVACIDAD</a><span class="txtMagenta">*</span>
     </p>
     <div class="contactSpace"></div>
 
-    <input type="submit" class="sendBtn" value="Enviar" />  
+    <input type="submit" class="sendBtn" value="Send" />  
   </form>
 <?
   } 
@@ -137,7 +136,7 @@
  	</div>
  </div>
 
- <div class="graficoAvion"></div>
+ 
 
  <script>
   $(function(){
