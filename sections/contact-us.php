@@ -23,9 +23,9 @@
       
       
       $body   = file_get_contents('sections/forms/email.php');
-      //, '{ocupacion}'
-      // $ocupacion,
-      $body     = str_replace( array('{dominio}', '{fecha}', '{nombre}', '{email}' , '{ciudad}', '{edad}', '{comentario}' ), array($dominio, $fecha, $nombre, $email, $ciudad, $edad, $comentario), $body );  
+      //, '{ocupacion}', '{edad}'
+      // $ocupacion, $edad,
+      $body     = str_replace( array('{dominio}', '{fecha}', '{nombre}', '{email}' , '{ciudad}', '{comentario}' ), array($dominio, $fecha, $nombre, $email, $ciudad, $comentario), $body );  
       
       $headers = "From: JOUXBE <info@jouxbeaustralia.com>\n";
       $headers .= "Reply-To:JOUXBE <no-reply@jouxbeaustralia.com>\n";
@@ -88,21 +88,22 @@
   }else{
 ?>
   <form action="" method="post" id="forma_contacto">
-    <label class="textocampo">Name<span class="txtMagenta">*</span>:</label>
+    <label class="textocampo">Name:</label>
     <input type="text" class="field required" name="nombre" title="This field is required" value="" />
     <div class="contactSpace"></div>
-    <label class="textocampo">Email<span class="txtMagenta">*</span>:</label>
+    <label class="textocampo">Email:</label>
     <input type="text" class="field required email" name="email" title="valid e-mail please" value="" />
     <div class="contactSpace"></div>
     <!--
-    <label class="textocampo">Ocupación<span class="txtMagenta">*</span>:</label>
+    <label class="textocampo">Ocupación:</label>
     <input type="text" class="field required" name="ocupacion" title="This field is required" value="" />
     <div class="contactSpace"></div>
     -->
-    <label class="textocampo">City<span class="txtMagenta">*</span>:</label>
+    <label class="textocampo">City:</label>
     <input type="text" class="field required" name="ciudad" title="This field is required" value="" />
     <div class="contactSpace"></div>
-    <label class="textocampo">Age<span class="txtMagenta">*</span>:</label>
+    <!--
+    <label class="textocampo">Age:</label>
     <select name="edad" id="edad" class="required">
       <option value="">Select one</option>
       <option value="20 a 29 años">20 - 29 yo</option>
@@ -110,13 +111,14 @@
       <option value="50 a más años">50+ yo</option>
     </select>
     <div class="contactSpace"></div>
-    <label class="textocampo">Comments<span class="txtMagenta">*</span>:</label>
+    -->
+    <label class="textocampo">Comments:</label>
     <textarea class="fieldArea required" name="comentario" title="This field is required"></textarea>
     <div class="contactSpace"></div>
 
     <p class="indicacion">
-      Los campos señalados con <span class="txtMagenta">*</span> son obligatorios<br>
-      <input type="checkbox" name="avisoPrivacidad" value="avisoPrivacidad" class="required"> Leí y acepto el tratamiendo de mis datos de acuerdo al <a href="" target="blank">AVISO DE PRIVACIDAD</a><span class="txtMagenta">*</span>
+      Attention, all fields are required<br>
+      <input type="checkbox" name="avisoPrivacidad" value="avisoPrivacidad" class="required"> Leí y acepto el tratamiendo de mis datos de acuerdo al <a href="" target="blank">AVISO DE PRIVACIDAD</a>
     </p>
     <div class="contactSpace"></div>
 

@@ -77,6 +77,8 @@
 
 
 <script src="js/vendor/bootstrap.min.js"></script>
+<!-- jquery-validate -->
+<script type="text/javascript" src="js/jquery.validate.pack.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 
 <script src="js/main.js"></script>
