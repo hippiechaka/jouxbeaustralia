@@ -55,7 +55,7 @@
 
  <!-- LEFT -->
 
- <div class="col-xs-6 bgCian left">
+ <div class="col-md-6 bgCian left">
 
  	<div class="half_safe_area right">
  		<div class="contactoTxt">
@@ -72,7 +72,7 @@
 
 <!-- RIGHT -->
 
- <div class="col-xs-6 right">
+ <div class="col-md-6 right">
  	<div class="half_safe_area left">
 
 <form id="forma_contacto" method="post">
