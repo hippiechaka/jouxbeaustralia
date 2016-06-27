@@ -28,6 +28,26 @@
 	$keywords 		= 'jouxbe, jewellery';
 	$fb_img 		= $domain.'images/fb_share.jpg';
 
+	switch ($section) {
+		case 'about-us':
+			$titulo2 = "About Us";
+			break;
+		case 'buying-process':
+			$titulo2 = "Buying Process";
+			break;
+		case 'brochure':
+			$titulo2 = "Brochure";
+			break;
+		case 'contact-us':
+			$titulo2 = "Contact Us";
+			break;
+		case 'productos':
+			$titulo2 = "Productos";
+			break;			
+	}
+
+	$titulo 		= 'Jouxbe - '.$titulo2;
+
 ?>
 
     <base href="<?php echo($domain);?>" />
