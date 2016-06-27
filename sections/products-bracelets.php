@@ -27,50 +27,11 @@
 </div>
 
 <div id="links" data-columns class="padding10">
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x842">
+    <a href="images/products/bracelets/scd-040.jpg" class="item" title="scd-040">
+        <img src="images/products/bracelets/scd-040.jpg">
     </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x408">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x221">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x450">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x350">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x253">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x600">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x260">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x550">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x400">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x360">
-    </a>
-    <a href="http://placehold.it/1024x800" class="item">
-        <img src="http://placehold.it/600x390">
+    <a href="images/products/bracelets/scd-040.jpg" class="item" title="scd-040">
+        <img src="images/products/bracelets/scd-040.jpg">
     </a>
 	
 </div>
@@ -79,7 +40,7 @@
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
-    <!-- <h3 class="title"></h3> -->
+    <h3 class="title"></h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>

@@ -87,6 +87,12 @@
     <a href="images/products/religious/an-248.jpg" class="item" title="an-248">
         <img src="images/products/religious/an-248.jpg">
     </a>
+    <a href="images/products/religious/ar-044.jpg" class="item" title="ar-044">
+        <img src="images/products/religious/ar-044.jpg">
+    </a>
+    <a href="images/products/religious/ar-045.jpg" class="item" title="ar-045">
+        <img src="images/products/religious/ar-045.jpg">
+    </a>
 	
 </div>
 <div class="clear" style="height:80px;"></div>
@@ -94,7 +100,7 @@
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
-    <!-- <h3 class="title"></h3> -->
+    <h3 class="title"></h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
