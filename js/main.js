@@ -10,7 +10,7 @@ $(document).ready(function(){
     items: 1,
     slideSpeed: 300,
     paginationSpeed: 400,
-    autoPlay: true,
+    autoPlay: 3000, //autoplay n 3 sec.
     navText: [
         "<i class='fa fa-angle-left' aria-hidden='true'></i>",
         "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
