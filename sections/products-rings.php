@@ -16,7 +16,7 @@
       <a class="button" href="products-jewellery-sets.html">Jewellery Sets</a>
       <a class="button" href="products-rose-jewellery.html">Rose Jewellery</a>
       <a class="button" href="products-watches.html">Watches</a>
-      <a class="button" href="products-charms.html">Charms</a>
+      <a class="button" href="products-pendants.html">Pendants</a>
       <a class="button" href="products-religious.html">Religious</a>
       <a class="button" href="products-customized-jewellery.html">Customized Jewellery</a>
       <a class="button is-checked" href="products-rings.html">Rings</a>

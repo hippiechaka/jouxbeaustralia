@@ -224,31 +224,30 @@ section#products{/*background:url(../images/pattern.gif)repeat;*/height:auto;min
 #filters{display:inline-block;}
 .categorias.padding10{padding:10px !important;}
 .button-group .button{
-  display:inline-block;padding:0.5em 1.0em;border:none;border-radius:3px;color: #fff;font-size:16px;cursor:pointer; padding-left:20px; padding-right:20px;
-  background: rgb(111,130,33);
-  background: -moz-linear-gradient(top,  rgba(111,130,33,1) 0%, rgba(140,161,52,1) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(111,130,33,1)), color-stop(100%,rgba(140,161,52,1)));
-  background: -webkit-linear-gradient(top,  rgba(111,130,33,1) 0%,rgba(140,161,52,1) 100%);
-  background: -o-linear-gradient(top,  rgba(111,130,33,1) 0%,rgba(140,161,52,1) 100%);
-  background: -ms-linear-gradient(top,  rgba(111,130,33,1) 0%,rgba(140,161,52,1) 100%);
-  background: linear-gradient(to bottom,  rgba(111,130,33,1) 0%,rgba(140,161,52,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44d1fc', endColorstr='#157dc2',GradientType=0 );
+  display:inline-block;padding:0.5em 1.0em;border:none;border-radius:3px;color: #465563;font-size:16px;cursor:pointer; padding-left:20px; padding-right:20px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7fbfc+0,d9edf2+40,add9e4+100 */
+background: #f7fbfc; /* Old browsers */
+background: -moz-linear-gradient(top,  #f7fbfc 0%, #d9edf2 40%, #add9e4 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f7fbfc 0%,#d9edf2 40%,#add9e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+
   width:calc(25% - 1px);
 }
 .button-group a.button:hover {
-  color:#d7ecf0;
+  color:#7c8792;
   text-decoration:none;
-  background:#596916;
+  background:#465563;
 }
 .button-group a.button:active{
   color:#d7ecf0;
   text-decoration:none;
-  background:#596916;
+  background:#465563;
 }
 .button-group a.button.is-checked{
   color:#d7ecf0;
   text-decoration:none;
-  background:#596916 !important;
+  background:#465563 !important;
   cursor:default !important;
 }
 .button-group:after {content: '';display:block;clear:both;}
