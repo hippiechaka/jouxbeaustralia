@@ -2,11 +2,31 @@
     <div class="">
 
       <div class="slideHome">
-        <div><img src="images/slide_home/slide1.jpg" alt="Jouxbe Australia"></div>
-        <div><img src="images/slide_home/slide2.jpg" alt="Jouxbe Australia"></div>
-        <div><img src="images/slide_home/slide3.jpg" alt="Jouxbe Australia"></div>
-        <div><img src="images/slide_home/slide4.jpg" alt="Jouxbe Australia"></div>
-        <div><img src="images/slide_home/slide5.jpg" alt="Jouxbe Australia"></div>
+        <div>
+          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+            <img src="images/slide_home/slide1.jpg" alt="Jouxbe Australia">
+          </a>
+        </div>
+        <div>
+          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+            <img src="images/slide_home/slide2.jpg" alt="Jouxbe Australia">
+          </a>
+        </div>
+        <div>
+          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+            <img src="images/slide_home/slide3.jpg" alt="Jouxbe Australia">
+          </a>
+        </div>
+        <div>
+          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+            <img src="images/slide_home/slide4.jpg" alt="Jouxbe Australia">
+          </a>
+        </div>
+        <div>
+          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+            <img src="images/slide_home/slide5.jpg" alt="Jouxbe Australia">
+          </a>
+        </div>
       </div>
 
     </div>
