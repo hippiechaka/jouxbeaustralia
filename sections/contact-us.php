@@ -18,7 +18,7 @@
       // $ocupacion   = $_REQUEST['ocupacion'];
       $email       = $_REQUEST['email'];
       $ciudad      = $_REQUEST['ciudad'];
-      $edad        = $_REQUEST['edad'];
+      // $edad        = $_REQUEST['edad'];
       $comentario  = $_REQUEST['comentario'];
       
       
@@ -52,7 +52,9 @@
       
   }
 ?>
-
+<script src="js/parallax.js"></script>
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/sample-header.jpg"></div>
+<div class="whitespace" style="height:30px;"></div>
  <!-- LEFT -->
 
  <div class="col-md-6 bgCian left">
@@ -145,3 +147,7 @@
     $("#forma_contacto").validate();
   });
  </script>
+
+ <script>
+$('.parallax-window').parallax();  
+</script>

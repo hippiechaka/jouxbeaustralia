@@ -23,7 +23,7 @@
           </a>
         </div>
         <div>
-          <a href="javascript:void(0);" class="slideHomeLink">
+          <a href="javascript:void(0);" class="slideHomeLink"><!-- con este inhabilitas el link: javascript:void(0); -->
             <img src="images/slide_home/slide5.jpg" alt="Jouxbe Australia">
           </a>
         </div>
@@ -144,11 +144,20 @@
       </figure>
     </li>
 
-    <li class="banner-sm">
+    <li class="banner-sm special">
       <figure>
         <a href="products-bracelets.html">
           <span style="background:url(images/banners_home/text/bracelets.png)" class="txt sm"></span>
           <img src="images/banners_home/bracelets.jpg" alt="bracelets">
+        </a>
+      </figure>
+    </li>
+
+    <li class="banner-xs">
+      <figure>
+        <a href="brochure.html">
+          <span style="background:url(images/banners_home/text/brochure.png)" class="txt xs"></span>
+          <img src="images/banners_home/brochure.jpg" alt="brochure">
         </a>
       </figure>
     </li>

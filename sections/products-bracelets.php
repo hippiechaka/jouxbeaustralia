@@ -1,8 +1,9 @@
 <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 <link rel="stylesheet" href="css/salvattore.css">
 
-<div id="Bracelets_header" class="productsHeader">
-  <h1>Bracelets</h1>  
+<script src="js/parallax.js"></script>
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/sample-header.jpg">
+  <h1>Bracelets</h1>
 </div>
 
 <section id="products">
