@@ -3,27 +3,27 @@
 
       <div class="slideHome">
         <div>
-          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+          <a href="about-us.html" class="slideHomeLink">
             <img src="images/slide_home/slide1.jpg" alt="Jouxbe Australia">
           </a>
         </div>
         <div>
-          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+          <a href="products-rose-jewellery.html" class="slideHomeLink">
             <img src="images/slide_home/slide2.jpg" alt="Jouxbe Australia">
           </a>
         </div>
         <div>
-          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+          <a href="products-earrings.html" class="slideHomeLink">
             <img src="images/slide_home/slide3.jpg" alt="Jouxbe Australia">
           </a>
         </div>
         <div>
-          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+          <a href="products-bracelets.html" class="slideHomeLink">
             <img src="images/slide_home/slide4.jpg" alt="Jouxbe Australia">
           </a>
         </div>
         <div>
-          <a href="javascript:void(0);" target="_blank" class="slideHomeLink">
+          <a href="javascript:void(0);" class="slideHomeLink">
             <img src="images/slide_home/slide5.jpg" alt="Jouxbe Australia">
           </a>
         </div>
