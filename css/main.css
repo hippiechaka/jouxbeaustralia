@@ -5,8 +5,8 @@
 Custom Styles BY HIPPIEPERRO
 ==========================================================================
 */
-.bgCian, .cian{/*background-color:#21a3ce;*/background:rgba(170,181,185,0.25);min-height: 640px;}
-.half_safe_area.left{max-width:100%;min-width:50%;position:relative;top:0;left:0;}
+.bgCian, .cian{/*background-color:#21a3ce;*/background:rgba(170,181,185,0.25);min-height: 560px;}
+.half_safe_area.left{max-width:100%;min-width:50%;position:relative;top:0;left:0;min-height:460px;}
 header{
 	height:90px;
 }
@@ -14,6 +14,7 @@ footer{
 	background:#d9d9d9; 
   padding-bottom:60px;
   /*margin-top:30px;*/
+  clear: both;
 }
 
 section {padding-top:10px;clear:both;display:block;min-height:650px;}
@@ -273,8 +274,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', end
 /*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: CONTACTO!
 */
-.contactoTxt{color: #fff; text-align: right; margin-right: 20px; margin-top: 80px;min-height: 520px;}
-
+.contactoTxt{color: #fff; text-align: right; margin-right: 20px; margin-top: 80px;min-height: 460px;}
 .contactoTxt h1{text-transform: uppercase; font-size: 80px;}
 .contactoTxt h3{color:#6A512D;}
 .contactoTxt h3 span{font-size: 0.7em;color:#C59A2D;}

@@ -4,9 +4,7 @@
 
       $nombre      = "";
       $email       = "";
-      $ocupacion   = "";
       $ciudad      = "";
-      $edad        = "";
       $comentario    = "";
 
 
@@ -15,16 +13,12 @@
       $dominio     = $domain;
       $fecha       = date('d/m/Y');
       $nombre      = $_REQUEST['nombre'];
-      // $ocupacion   = $_REQUEST['ocupacion'];
       $email       = $_REQUEST['email'];
       $ciudad      = $_REQUEST['ciudad'];
-      // $edad        = $_REQUEST['edad'];
       $comentario  = $_REQUEST['comentario'];
       
       
       $body   = file_get_contents('sections/forms/email.php');
-      //, '{ocupacion}', '{edad}'
-      // $ocupacion, $edad,
       $body     = str_replace( array('{dominio}', '{fecha}', '{nombre}', '{email}' , '{ciudad}', '{comentario}' ), array($dominio, $fecha, $nombre, $email, $ciudad, $comentario), $body );  
       
       $headers = "From: JOUXBE <info@jouxbeaustralia.com>\n";
@@ -54,7 +48,6 @@
 ?>
 <script src="js/parallax.js"></script>
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/sample-header.jpg"></div>
-<div class="whitespace" style="height:30px;"></div>
  <!-- LEFT -->
 
  <div class="col-md-6 bgCian left">
@@ -83,8 +76,8 @@
 ?>
   <br><br><br><br>
   <center>
-    <h2>Tu mensaje ha sido envíado</h2>
-    <h3>¡Gracias por escribirnos!</h3>
+    <h2>Your message has been sent successfully</h2>
+    <h3>Thanks for your comments!</h3>
   </center>
 <?    
   }else{
@@ -96,31 +89,16 @@
     <label class="textocampo">Email:</label>
     <input type="text" class="field required email" name="email" title="valid e-mail please" value="" />
     <div class="contactSpace"></div>
-    <!--
-    <label class="textocampo">Ocupación:</label>
-    <input type="text" class="field required" name="ocupacion" title="This field is required" value="" />
-    <div class="contactSpace"></div>
-    -->
     <label class="textocampo">City:</label>
     <input type="text" class="field required" name="ciudad" title="This field is required" value="" />
     <div class="contactSpace"></div>
-    <!--
-    <label class="textocampo">Age:</label>
-    <select name="edad" id="edad" class="required">
-      <option value="">Select one</option>
-      <option value="20 a 29 años">20 - 29 yo</option>
-      <option value="30 a 49 años">30 - 49 yo</option>
-      <option value="50 a más años">50+ yo</option>
-    </select>
-    <div class="contactSpace"></div>
-    -->
     <label class="textocampo">Comments:</label>
     <textarea class="fieldArea required" name="comentario" title="This field is required"></textarea>
     <div class="contactSpace"></div>
 
     <p class="indicacion">
-      Attention, all fields are required<br>
-      <input type="checkbox" name="avisoPrivacidad" value="avisoPrivacidad" class="required"> Leí y acepto el tratamiendo de mis datos de acuerdo al <a href="" target="blank">AVISO DE PRIVACIDAD</a>
+      All fields are required<br>
+      <input type="checkbox" name="avisoPrivacidad" value="avisoPrivacidad" class="required"> I read and accept the treatment of my data according to <a href="" target="blank">PRIVACY NOTICE</a>
     </p>
     <div class="contactSpace"></div>
 
@@ -145,9 +123,6 @@
  <script>
   $(function(){
     $("#forma_contacto").validate();
+    $('.parallax-window').parallax(); 
   });
  </script>
-
- <script>
-$('.parallax-window').parallax();  
-</script>
