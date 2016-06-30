@@ -47,7 +47,7 @@
   }
 ?>
 <script src="js/parallax.js"></script>
-<div class="parallax-window" data-parallax="scroll" data-image-src="images/sample-header.jpg"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/header-contact.jpg"></div>
  <!-- LEFT -->
 
  <div class="col-md-6 bgCian left">
