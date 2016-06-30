@@ -147,7 +147,7 @@
     <li class="banner-sm special">
       <figure>
         <a href="products-bracelets.html">
-          <span style="background:url(images/banners_home/text/bracelets.png)" class="txt sm"></span>
+          <span style="background:url(images/banners_home/text/bracelets.png)" class="txt sm special"></span>
           <img src="images/banners_home/bracelets.jpg" alt="bracelets">
         </a>
       </figure>

@@ -127,7 +127,7 @@ form.navbar-right {
 .grid li {
   display: inline-block;
   width: 440px;
-  margin: 0;
+  margin: 3px;
   /*padding: 20px;*/
   text-align: left;
   position: relative;
@@ -168,25 +168,26 @@ form.navbar-right {
 	width:884px !important;
 	height:200px !important;
 	overflow:hidden;
-	display:block;
 }
 .banner-md{
 	width:440px !important;
 	height:200px !important;
 	overflow:hidden;
-	display:block;
 }
 .banner-sm{
 	width:440px !important;
 	height:90px !important;
 	overflow:hidden;
-	display:block;
 }
 .banner-xs{
 	width:140px !important;
 	height:90px !important;
 	overflow:hidden;
-	display:block;
+}
+.banner-sm.special{
+  width:290px !important;
+  height:90px !important;
+  overflow:hidden;
 }
 .txt{
 	display:block;
@@ -210,6 +211,10 @@ form.navbar-right {
 .txt.xs{
 	width:140px;
 	height:90px;
+}
+.txt.sm.special{
+  width:290px;
+  height:90px;
 }
 /*
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: GALLERY!
