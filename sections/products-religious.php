@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="css/salvattore.css">
 
 <script src="js/parallax.js"></script>
-<div class="parallax-window" data-parallax="scroll" data-image-src="images/sample-header.jpg">
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/header-religious.jpg">
   <h1>Religious</h1>  
 </div>
 
@@ -150,7 +150,6 @@
     </a>
     <a href="images/products/religious/ar-221.jpg" class="item" title="ar-221">
         <img src="images/products/religious/ar-221.jpg">
-
     </a>
 	
 </div>
