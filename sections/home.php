@@ -110,7 +110,7 @@
 
     <li class="banner-xs">
       <figure>
-        <a href="products-charms.html">
+        <a href="products-pendants.html">
           <span style="background:url(images/banners_home/text/charms.png)" class="txt xs"></span>
           <img src="images/banners_home/charms.jpg" alt="charms">
         </a>

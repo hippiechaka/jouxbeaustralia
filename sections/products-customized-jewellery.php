@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="css/salvattore.css">
 
 <script src="js/parallax.js"></script>
-<div class="parallax-window" data-parallax="scroll" data-image-src="images/sample-header.jpg">
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/header-custom.jpg">
   <h1>Customized Jewellery</h1>  
 </div>
 
