@@ -14,11 +14,11 @@
 
         <ul class="nav navbar-nav navbar-left">
           <!-- <li><a href="./">Home</a></li> -->
-          <li><a href="about-us.html" class="<?php if($section=='about-us'){ echo("current"); }?>">About Us</a></li>
-          <li><a href="buying-process.html" class="<?php if($section=='buying-process'){ echo("current"); }?>">Buying process</a></li>
-          <li><a href="products.html" class="<?php if($section=='products'){ echo("current"); }?>">Products</a></li>
-          <li><a href="brochure.html" class="<?php if($section=='brochure'){ echo("current"); }?>">Brochure</a></li>
-          <li><a href="contact-us.html" class="<?php if($section=='contact-us'){ echo("current"); }?>">Contact Us</a></li>
+          <li class="link-flip"><a href="about-us.html" class="<?php if($section=='about-us'){ echo("current"); }?>">About Us</a></li>
+          <li class="link-flip"><a href="buying-process.html" class="<?php if($section=='buying-process'){ echo("current"); }?>">Buying process</a></li>
+          <li class="link-flip"><a href="products.html" class="<?php if($section=='products'){ echo("current"); }?>">Products</a></li>
+          <li class="link-flip"><a href="brochure.html" class="<?php if($section=='brochure'){ echo("current"); }?>">Brochure</a></li>
+          <li class="link-flip"><a href="contact-us.html" class="<?php if($section=='contact-us'){ echo("current"); }?>">Contact Us</a></li>
         </ul>
         <form class="navbar-form navbar-right" role="form" action="">
           <div class="form-group">

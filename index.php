@@ -23,63 +23,60 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
-	$titulo 		= 'Jouxbe Australia';
-	$descripcion 	= 'Mexican Jewellery, Gold Layered';
+	$titulo 		= 'Jouxbe. Mexican Jewellery, Gold Layered';
+	$descripcion 	= 'A pioneer company in the jewelry industry. Our very first factory opened in the city of Guadalajara Mexico in the year 1985. To date';
 	$keywords 		= 'jouxbe, jewellery, bangles, earrings, chain necklaces, jewellery sets, rose jewellery, watches, charms, religious, customized jewellery, rings, bracelets, mexican Jewellery, gold layered';
 	$fb_img 		= $domain.'images/fb_share.jpg';
 
 	switch ($section) {
 		case 'about-us':
-			$titulo2 = "About Us";
+			$titulo2 = " - About Us";
 			break;
 		case 'buying-process':
-			$titulo2 = "Buying Process";
+			$titulo2 = " - Buying Process";
 			break;
 		case 'brochure':
-			$titulo2 = "Brochure";
+			$titulo2 = " - Brochure";
 			break;
 		case 'contact-us':
-			$titulo2 = "Contact Us";
+			$titulo2 = " - Contact Us";
 			break;
 		case 'products':
-			$titulo2 = "Bangles";
+			$titulo2 = " - Bangles";
 			break;
 		case 'products-earrings':
-			$titulo2 = "Earrings";
+			$titulo2 = " - Earrings";
 			break;
 		case 'products-chain-necklaces':
-			$titulo2 = "Chain Necklaces";
+			$titulo2 = " - Chain Necklaces";
 			break;
 		case 'products-jewellery-sets':
-			$titulo2 = "Jewellery Sets";
+			$titulo2 = " - Jewellery Sets";
 			break;
 		case 'products-rose-jewellery':
-			$titulo2 = "Rose Jewellery";
+			$titulo2 = " - Rose Jewellery";
 			break;
 		case 'products-watches':
-			$titulo2 = "Watches";
+			$titulo2 = " - Watches";
 			break;
 		case 'products-charms':
-			$titulo2 = "Charms";
+			$titulo2 = " - Charms";
 			break;
 		case 'products-religious':
-			$titulo2 = "Religious";
+			$titulo2 = " - Religious";
 			break;
 		case 'products-customized-jewellery':
-			$titulo2 = "Customized Jewellery";
+			$titulo2 = " - Customized Jewellery";
 			break;
 		case 'products-rings':
-			$titulo2 = "Rings";
+			$titulo2 = " - Rings";
 			break;
 		case 'products-bracelets':
-			$titulo2 = "Bracelets";
-			break;
-		// case 'products':
-		// 	$titulo2 = "Bangles";
-		// 	break;			
+			$titulo2 = " - Bracelets";
+			break;			
 	}
 
-	$titulo 		= 'Jouxbe - '.$titulo2;
+	$titulo 		= 'Jouxbe'.$titulo2;
 
 ?>
 
