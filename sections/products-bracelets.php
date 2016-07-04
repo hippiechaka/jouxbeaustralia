@@ -189,6 +189,12 @@
       </a>
     <a href="images/products/bracelets/scg-014.jpg" class="item" title="scg-014">
         <img src="images/products/bracelets/scg-014.jpg">
+      </a>
+    <a href="images/products/bracelets/scc-032.jpg" class="item" title="scc-032">
+        <img src="images/products/bracelets/scc-032.jpg">
+      </a>
+    <a href="images/products/bracelets/scc-033.jpg" class="item" title="scc-033">
+        <img src="images/products/bracelets/scc-033.jpg">
     </a>
 	
 </div>
