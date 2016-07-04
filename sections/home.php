@@ -165,3 +165,5 @@
   </ul>
   <!-- </div>
 </div> -->
+
+<div style="clear:both;width:100%;display:block;height:50px;"></div>
