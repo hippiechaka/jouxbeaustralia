@@ -1,5 +1,5 @@
 <script src="js/parallax.js"></script>
-<div class="parallax-window" data-parallax="scroll" data-image-src="images/sample-header.jpg"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="images/header-buying.jpg"></div>
 <div class="whitespace" style="height:30px;"></div>
 
 
