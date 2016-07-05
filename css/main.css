@@ -636,7 +636,8 @@ label.error{
     width:100%;
     /*list-style: initial;
     margin: initial;
-    padding: 0 0 0 40px;*/
+    */
+    padding:0px;
     text-align:center;
     }
   .navbar-footer li{display:inline-block;width:initial;}
