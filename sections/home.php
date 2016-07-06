@@ -1,41 +1,38 @@
+<!-- Slide Home -->
+    
+<div class="">
 
-    <div class="">
-
-      <div class="slideHome">
-        <div>
-          <a href="about-us.html" class="slideHomeLink">
-            <img src="images/slide_home/slide1.jpg" alt="Jouxbe Australia">
-          </a>
-        </div>
-        <div>
-          <a href="products-rose-jewellery.html" class="slideHomeLink">
-            <img src="images/slide_home/slide2.jpg" alt="Jouxbe Australia">
-          </a>
-        </div>
-        <div>
-          <a href="products-earrings.html" class="slideHomeLink">
-            <img src="images/slide_home/slide3.jpg" alt="Jouxbe Australia">
-          </a>
-        </div>
-        <div>
-          <a href="products-bracelets.html" class="slideHomeLink">
-            <img src="images/slide_home/slide4.jpg" alt="Jouxbe Australia">
-          </a>
-        </div>
-        <div>
-          <a href="javascript:void(0);" class="slideHomeLink"><!-- con este inhabilitas el link: javascript:void(0); -->
-            <img src="images/slide_home/slide5.jpg" alt="Jouxbe Australia">
-          </a>
-        </div>
-      </div>
-
+  <div class="slideHome">
+    <div>
+      <a href="about-us.html" class="slideHomeLink">
+        <img src="images/slide_home/slide1.jpg" alt="Jouxbe Australia">
+      </a>
     </div>
+    <div>
+      <a href="products-rose-jewellery.html" class="slideHomeLink">
+        <img src="images/slide_home/slide2.jpg" alt="Jouxbe Australia">
+      </a>
+    </div>
+    <div>
+      <a href="products-earrings.html" class="slideHomeLink">
+        <img src="images/slide_home/slide3.jpg" alt="Jouxbe Australia">
+      </a>
+    </div>
+    <div>
+      <a href="products-bracelets.html" class="slideHomeLink">
+        <img src="images/slide_home/slide4.jpg" alt="Jouxbe Australia">
+      </a>
+    </div>
+    <div>
+      <a href="javascript:void(0);" class="slideHomeLink"><!-- con este inhabilitas el link: javascript:void(0); -->
+        <img src="images/slide_home/slide5.jpg" alt="Jouxbe Australia">
+      </a>
+    </div>
+  </div>
 
+</div>
 
 <!-- Banners -->
-
-<!-- <div class="container">
-  <div class="row"> -->
 
   <ul class="grid cs-style-3">
 
@@ -163,7 +160,5 @@
     </li>
 
   </ul>
-  <!-- </div>
-</div> -->
 
 <div style="clear:both;width:100%;display:block;height:50px;"></div>
