@@ -59,6 +59,25 @@
 	 		<div class="redesContacto">
 				<a target="_blank" href="" class="BTN-redes" id="facebook" title="Follow Us on facebook"></a>
 			</div>
+<p>
+E-mail: <a href="mailto:jouxbe@hotmail.com">jouxbe@hotmail.com</a><br>
+<br>
+<span>Toll free / Llame sin costo:</span><br>
+USA: 1 866 406 8031<br>
+MEX: 01 800 831 5940<br>
+INT: +52 (33) 36 55 88 39<br>
+<br>
+Business hours / Horario de atención:<br>
+USA-MEX<br>
+MEXICO CENTER HOURS / HORARIO DEL CENTRO DE MÉXICO<br>
+<br>
+CENTRAL AND SOUTH AMERICA / CENTRO Y SUDAMERICA<br>
+MEXICO CENTER HOURS / HORARIO DEL CENTRO DE MÉXICO<br>
+<br>
+AUSTRALIA<br>
+6AM - 11AM AUSTRALIA STANDAR TIME (UTC)
+</p>
+
  		</div>
  	</div>
 

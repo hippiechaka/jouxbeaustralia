@@ -21,7 +21,7 @@
 				  • Page number in which the item is located.<br>
 				  • The amount required and sizes if required as well.
 				  </p>
-				  <a href="#" class="btn btn-lg btn-default"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download your purchase order format here</a>
+				  <a href="pdf/jouxbe_purchase_order.pdf" target="_blank" class="btn btn-lg btn-default"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download your purchase order format here</a>
                 </div>
               </div>
               <!-- /.info-box -->
@@ -94,7 +94,7 @@
 				  • Número de página donde se localiza el producto.<br>
 				  • Cantidad del producto y sus medidas, si así se requiere.
 				  </p>
-				  <a href="#" class="btn btn-lg btn-default"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descarga aquí, tu formato de pedido</a>
+				  <a href="pdf/jouxbe_orden_de_pedido.pdf" target="_blank" class="btn btn-lg btn-default"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Descarga aquí, tu formato de pedido</a>
                 </div>
               </div>
               <!-- /.info-box -->
