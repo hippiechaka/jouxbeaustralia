@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 <link rel="stylesheet" href="css/salvattore.css">
 
-<script src="js/parallax.js"></script>
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/header-rose.jpg">
   <h1>Rose Jewellery</h1>  
 </div>

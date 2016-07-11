@@ -1,4 +1,4 @@
-<script src="js/parallax.js"></script>
+
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/header-buying.jpg"></div>
 <div class="whitespace" style="height:30px;"></div>
 
@@ -54,7 +54,7 @@
                   <p class="sub-txt text-justify">
 					*Shipping rate will be provided by your sales consultant<br>
 					*All international shipments are done though:<br>
-					<!-- LISTA -->
+					<div class="col-md-12 col-xs-12"><img src="images/payment-option-fedex.png" alt="FedEx" class="paymentOption img-responsive"></div>
 				  </p>
                 </div>
               </div>
@@ -129,9 +129,9 @@
 							
 					*El costo del envÍo se determinará por tu código postal<br>
 					*Todos los envíos a USA, Australia e Internacional serán enviados por:<br>
-					<!-- LISTA -->
+					<div class="col-md-12 col-xs-12"><img src="images/payment-option-fedex.png" alt="FedEx" class="paymentOption img-responsive"></div>
 					*Todos los envíos a México serán enviados por:<br>
-					<!-- LISTA -->
+					<div class="col-md-12 col-xs-12"><img src="images/payment-option-estafeta.png" alt="Estafeta" class="paymentOption img-responsive"></div>
 
 				  </p>
                 </div>
@@ -159,7 +159,4 @@
   </div><!-- /.container -->
 <div class="whitespace" style="height:80px;"></div>
 
-<script>
-$('.parallax-window').parallax();  
-</script>
 

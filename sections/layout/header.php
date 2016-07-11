@@ -20,12 +20,12 @@
           <li class="link-flip"><a href="brochure.html" class="<?php if($section=='brochure'){ echo("current"); }?>">Brochure</a></li>
           <li class="link-flip"><a href="contact-us.html" class="<?php if($section=='contact-us'){ echo("current"); }?>">Contact Us</a></li>
         </ul>
-        <form class="navbar-form navbar-right" role="form" action="">
+        <!-- <form class="navbar-form navbar-right" role="form" action="">
           <div class="form-group">
             <input type="text" placeholder="Search.." class="form-control">
           </div>
           <button type="submit" class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
-        </form>
+        </form> -->
 
       </div><!--/.navbar-collapse -->
     </div>

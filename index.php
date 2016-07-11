@@ -11,6 +11,9 @@
 	//include("cms/functions/funciones.php");
 	$section = empty($_REQUEST['section']) ? 'home' : $_REQUEST['section'];
 	$id = empty($_REQUEST['id'])? 0: $_REQUEST['id'];	
+
+	$search = $_GET['search'];
+	$results = "SELECT * FROM products WHERE sku LIKE '%$search%'"; 4
 ?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
@@ -24,11 +27,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php
 	$titulo 		= 'Jouxbe. Mexican Jewellery, Gold Layered';
-	$descripcion 	= 'A pioneer company in the jewelry industry. Our very first factory opened in the city of Guadalajara Mexico in the year 1985. To date';
+	$descripcion 	= 'A pioneer company in the jewellery industry. Our very first factory opened in the city of Guadalajara Mexico in the year 1985. To date';
 	$keywords 		= 'jouxbe, jewellery, bangles, earrings, chain necklaces, jewellery sets, rose jewellery, watches, charms, religious, customized jewellery, rings, bracelets, mexican Jewellery, gold layered';
 	$fb_img 		= $domain.'images/fb_share.jpg';
 
 	switch ($section) {
+		case 'home':
+			$titulo2 = " Mexican Jewellery, Gold Layered";
+			break;
 		case 'about-us':
 			$titulo2 = " - About Us";
 			break;
@@ -129,6 +135,7 @@
 <script src="js/vendor/bootstrap.min.js"></script>
 <!-- jquery-validate -->
 <script type="text/javascript" src="js/jquery.validate.pack.js"></script>
+<script src="js/parallax.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 
 <script src="js/main.js"></script>

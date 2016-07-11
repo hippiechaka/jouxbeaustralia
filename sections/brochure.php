@@ -1,4 +1,4 @@
-<script src="js/parallax.js"></script>
+
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/header-brochure.jpg"></div>
 <div class="whitespace" style="height:30px;"></div>
 
@@ -42,6 +42,3 @@
 	</div>
 </div>
 
-<script>
-$('.parallax-window').parallax();  
-</script>

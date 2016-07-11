@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $('.parallax-window').parallax();  
   $('.slideHome').owlCarousel({
     //smartSpeed:450,
 	singleItem: true,

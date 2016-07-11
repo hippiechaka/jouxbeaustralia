@@ -27,6 +27,24 @@
 
 </div>
 
+
+<!--
+<script>
+    var object = [];
+    $.each($('.item'), function(index, cat) {
+        var ind = index++;
+        var title=$('.item:nth-child('+index+')').attr('title');
+        var img=$('.item:nth-child('+index+') img').attr('src');
+
+        object.push({
+            "id":index,
+            "title": title,
+            "img": img
+        }); 
+    });
+    console.log(object);
+</script>
+-->
 <div id="links" data-columns class="padding10">
     <a href="images/products/earrings/ar-001.jpg" class="item" title="ar-001">
         <img src="images/products/earrings/ar-001.jpg">
@@ -897,6 +915,7 @@
     </a>
 	
 </div>
+
 <div class="clear" style="height:80px;"></div>
 
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
