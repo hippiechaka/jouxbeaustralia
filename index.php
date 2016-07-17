@@ -133,11 +133,12 @@
 
 
 <script src="js/vendor/bootstrap.min.js"></script>
-<!-- jquery-validate -->
-<script type="text/javascript" src="js/jquery.validate.pack.js"></script>
 <script src="js/parallax.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-
+<!-- jquery-validate -->
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<!-- forms -->
+<script type="text/javascript" src="js/jquery.form.js"></script>
 <script src="js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

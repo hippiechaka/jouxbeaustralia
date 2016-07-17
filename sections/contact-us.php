@@ -1,52 +1,4 @@
-<?  
-
-  $enviado = 0;
-
-      $nombre      = "";
-      $email       = "";
-      $ciudad      = "";
-      $comentario    = "";
-
-
-  if(!empty($_REQUEST['email'])){
-      $emails      = EMAIL_CONTACTO;
-      $dominio     = $domain;
-      $fecha       = date('d/m/Y');
-      $nombre      = $_REQUEST['nombre'];
-      $email       = $_REQUEST['email'];
-      $ciudad      = $_REQUEST['ciudad'];
-      $comentario  = $_REQUEST['comentario'];
-      
-      
-      $body   = file_get_contents('sections/forms/email.php');
-      $body     = str_replace( array('{dominio}', '{fecha}', '{nombre}', '{email}' , '{ciudad}', '{comentario}' ), array($dominio, $fecha, $nombre, $email, $ciudad, $comentario), $body );  
-      
-      $headers = "From: JOUXBE <info@jouxbeaustralia.com>\n";
-      $headers .= "Reply-To:JOUXBE <no-reply@jouxbeaustralia.com>\n";
-      $headers .= 'Content-Type: text/html;';
-      $headers .= "MIME-Version: 1.0\n";
-      $headers .= "Content-Transfer-Encoding: 8bit\n";
-      $headers .= "X-Priority: 1\n";
-      $headers .= "X-Mailer: PHPMailer [version 1.72]\n";
-      $headers .= "X-AntiAbuse: This header was added to track abuse, please include it with any abuse report\n";
-      $headers .= "X-AntiAbuse: Primary Hostname - jouxbeaustralia.com\n";
-      $headers .= "X-AntiAbuse: Original Domain - jouxbeaustralia.com\n";
-      $headers .= "X-AntiAbuse: Originator/Caller UID/GID - [99 99] / [47 12]\n";
-      $headers .= "X-AntiAbuse: Sender Address Domain - jouxbeaustralia.com\n";
-      $headers .= "X-Source: \n";
-      $headers .= "X-Source-Args: \n";
-      $headers .= "X-Source-Dir: \n";
-    
-      $subject  = "Correo de contacto - ".$nombre;
-      
-      mail($emails , $subject, $body, $headers) or die("Error Send mail");    
-      $enviado = 1;     
-    
- 
-      
-  }
-?>
-
+<script src="js/parallax.js"></script>
 <div class="parallax-window" data-parallax="scroll" data-image-src="images/header-contact.jpg"></div>
  <!-- LEFT -->
 
@@ -59,25 +11,18 @@
 	 		<div class="redesContacto">
 				<a target="_blank" href="" class="BTN-redes" id="facebook" title="Follow Us on facebook"></a>
 			</div>
-      <hr>
+      <div style="clear:both;display:block;width:100%;height:1px; background:#ccc;margin-bottom:20px;"></div>
 <p style="color:#6A512D">
-<!-- E-mail: <a href="mailto:jouxbe@hotmail.com">jouxbe@hotmail.com</a><br>
-<br> -->
 <span>Toll free / Llame sin costo:</span><br>
 USA: 1 866 406 8031<br>
 MEX: 01 800 831 5940<br>
 INT: +52 (33) 36 55 88 39<br>
 <br>
-Business hours / Horario de atención:<br><!-- 
-USA-MEX<br>
-MEXICO CENTER HOURS / HORARIO DEL CENTRO DE MÉXICO<br>
-<br>
-CENTRAL AND SOUTH AMERICA / CENTRO Y SUDAMERICA<br>
-MEXICO CENTER HOURS / HORARIO DEL CENTRO DE MÉXICO<br> -->
-<br>
-<!-- AUSTRALIA<br> -->
-6AM - 11AM AUSTRALIA STANDAR TIME (UTC)
+<small>Business hours / Horario de atención:<br>
+6AM - 11AM AUSTRALIA STANDAR TIME (UTC)</small>
 </p>
+
+<div style="clear:both;display:block;width:100%;height:30px;"></div> 
 
  		</div>
  	</div>
@@ -90,58 +35,80 @@ MEXICO CENTER HOURS / HORARIO DEL CENTRO DE MÉXICO<br> -->
  <div class="col-md-6 right">
  	<div class="half_safe_area left">
 
-<form id="forma_contacto" method="post">
-  <?php 
-  if ($enviado){
-?>
-  <br><br><br><br>
-  <center>
-    <h2>Your message has been sent successfully</h2>
-    <h3>Thanks for your comments!</h3>
-  </center>
-<?    
-  }else{
-?>
-  <form action="" method="post" id="forma_contacto">
-    <label class="textocampo">Name:</label>
-    <input type="text" class="field required" name="nombre" title="This field is required" value="" />
-    <div class="contactSpace"></div>
-    <label class="textocampo">Email:</label>
-    <input type="text" class="field required email" name="email" title="valid e-mail please" value="" />
-    <div class="contactSpace"></div>
-    <label class="textocampo">City:</label>
-    <input type="text" class="field required" name="ciudad" title="This field is required" value="" />
-    <div class="contactSpace"></div>
-    <label class="textocampo">Comments:</label>
-    <textarea class="fieldArea required" name="comentario" title="This field is required"></textarea>
-    <div class="contactSpace"></div>
 
-    <p class="indicacion">
-      All fields are required<br>
-      <input type="checkbox" name="avisoPrivacidad" value="avisoPrivacidad" class="required"> I read and accept the treatment of my data according to <a href="" target="blank">PRIVACY NOTICE</a>
-    </p>
-    <div class="contactSpace"></div>
+        <div id="contacto" align="left">
 
-    <input type="submit" class="sendBtn" value="Send" />  
-  </form>
-<?
-  } 
-  ?>
+            <div id="enviado" style="display:none" align="center">
+                <div style="width:100%; height:80px; display:block; clear:both;"></div>
+                <h2 style="font-weight:300;">The message has been sent <span style="color:#ef9863;">successfully</span></h2>
+                <h1 style="font-weight:300;">Thanks!</h1>
+                <p>(please, refresh the site, in order to send another e-mail)</p>
+            </div>
+
+            <div id="forma_envio">
+
+                <div style="height:45px; width:280px; text-align:center; padding-top:10px; margin:0 auto;">
+                    <p style="margin:0; padding:0;">Please fill <span style="color:#ef9863;">all the fields</span> to get in touch</p>
+                </div>
+
+                <form action="envia_mail.php" method="post" id="forma_contacto">
+
+                    <label><span style="color:#ef9863;">*</span> Name:</label>
+                    <input type="text" name="nombre" class="text_input required" title="This field is required" id="contactname"/>
+
+                    <div style="width:100%; height:10px; display:block; clear:both;"></div>
+
+                    <label><span style="color:#ef9863;">*</span> E-mail:</label>
+                    <input type="text" name="email" class="text_input required email" title="Please, put a valid e-mail" id="email"/>
+                    
+                    <div style="width:100%; height:10px; display:block; clear:both;"></div>
+
+                    <label><span style="color:#ef9863;">*</span> City:</label>
+                    <input type="text" name="city" class="text_input required" title="This field is required" id="city"/>
+                    
+                    <div style="width:100%; height:10px; display:block; clear:both;"></div>
+                    
+                    <label><span style="color:#ef9863;">*</span> Message:</label>
+                    <textarea class="text_area required" name="mensaje" title="Write your message" id="message"></textarea>
+                    
+                    <div style="width:100%; height:10px; display:block; clear:both;"></div>
+                    <p>
+                    <span class="indicacion">
+                      <input type="checkbox" name="avisoPrivacidad" id="avisoPrivacidad" class="required altRequired" title="Check this">
+                      <span>I read and accept the <a href="" target="blank">Terms and conditions.</a></span>
+                    </span>                     
+                     </p>
+                    
+                    <input type="submit" value="Send" name="submit" id="enviar_btn" style="border:none" />
+
+                </form>
+                <div id="enviando" style="display:none">
+                    <img src="images/sm_loading.gif"/> Sending..
+                </div>
+            </div>
+        </div> 
 
 
-  </div>
+    </div>
   </div>
 
   <div class="clear"></div>                    
-</form>
  		
  	</div>
  </div>
-
- 
-
- <script>
-  $(function(){
-    $("#forma_contacto").validate();
-  });
+<script>
+ $(function(){
+    $("#forma_contacto").validate({
+        submitHandler: function (form) {
+            $("#enviando").show();
+            $(form).ajaxSubmit(function(){
+                $("#forma_contacto").slideUp(500, function(){
+                    $("#enviado").slideDown();
+                });
+            });
+            return false; 
+        }           
+    });
+});
+  
  </script>
