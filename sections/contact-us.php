@@ -46,12 +46,12 @@ INT: +52 (33) 36 55 88 39<br>
             </div>
 
             <div id="forma_envio">
-
-                <div style="height:45px; width:280px; text-align:center; padding-top:10px; margin:0 auto;">
-                    <p style="margin:0; padding:0;">Please fill <span style="color:#ef9863;">all the fields</span> to get in touch</p>
-                </div>
-
+            
                 <form action="envia_mail.php" method="post" id="forma_contacto">
+
+                    <div style="height:45px; width:280px; text-align:center; padding-top:10px; margin:0 auto;">
+                        <p style="margin:0; padding:0;">Please fill <span style="color:#ef9863;">all the fields</span> to get in touch</p>
+                    </div>
 
                     <label><span style="color:#ef9863;">*</span> Name:</label>
                     <input type="text" name="nombre" class="text_input required" title="This field is required" id="contactname"/>
@@ -79,7 +79,7 @@ INT: +52 (33) 36 55 88 39<br>
                     </span>                     
                      </p>
                     
-                    <input type="submit" value="Send" name="submit" id="enviar_btn" style="border:none" />
+                    <input type="submit" value="Send" name="submit" class="sendBtn" style="border:none" />
 
                 </form>
                 <div id="enviando" style="display:none">
@@ -104,6 +104,7 @@ INT: +52 (33) 36 55 88 39<br>
             $(form).ajaxSubmit(function(){
                 $("#forma_contacto").slideUp(500, function(){
                     $("#enviado").slideDown();
+                    $("#enviando").hide();
                 });
             });
             return false; 

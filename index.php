@@ -106,6 +106,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Trirong:200,400,700,900" rel="stylesheet">
 	<!--OWL -->
 	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel='stylesheet prefetch' href='css/awesomplete.css'>
 
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -139,6 +140,8 @@
 <script type="text/javascript" src="js/jquery.validate.js"></script>
 <!-- forms -->
 <script type="text/javascript" src="js/jquery.form.js"></script>
+<!-- awesomplete -->
+<script src='js/awesomplete.js'></script>
 <script src="js/main.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
