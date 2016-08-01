@@ -27,7 +27,6 @@
 
 </div>
 
-
 <!--
 <script>
     var object = [];
@@ -45,6 +44,7 @@
     console.log(object);
 </script>
 -->
+
 <div id="links" data-columns class="padding10">
     <a href="images/products/earrings/ar-001.jpg" class="item" title="ar-001">
         <img src="images/products/earrings/ar-001.jpg">

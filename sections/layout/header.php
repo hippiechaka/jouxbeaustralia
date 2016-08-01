@@ -25,15 +25,11 @@
             
 
 
-            <input type="text" class="awesomplete form-control" 
-       data-minchars="1" 
-       data-maxitems="5" 
-       data-list="scd - Bracelets, scg - Bracelets, scc - Bracelets, cd - Chain Necklaces, ar - Earrings, bq - Earrings, "
-       placeholder="Search.."/>
+            <input type="text" class="awesomplete form-control" placeholder="Search.." data-minchars="1" data-maxitems="7"/>
 
 
           </div>
-          <button type="submit" class="btn btn-success"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <button type="submit" class="btn btn-success btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>
 
       </div><!--/.navbar-collapse -->
