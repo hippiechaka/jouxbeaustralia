@@ -87,7 +87,7 @@
       </figure>
     </li>
 
-    <li class="banner-lg">
+    <li class="banner-lg visible-lg-inline-block">
       <figure>
         <a href="products-rose-jewellery.html">
           <span style="background:url(images/banners_home/text/rose_jewellery.png)" class="txt lg"></span>
@@ -96,7 +96,7 @@
       </figure>
     </li>
 
-    <li class="banner-xs">
+    <li class="banner-xs visible-lg-inline-block">
       <figure>
         <a href="products-watches.html">
           <span style="background:url(images/banners_home/text/watches.png)" class="txt xs"></span>
@@ -105,7 +105,7 @@
       </figure>
     </li>
 
-    <li class="banner-xs">
+    <li class="banner-xs visible-lg-inline-block">
       <figure>
         <a href="products-pendants.html">
           <span style="background:url(images/banners_home/text/charms.png)" class="txt xs"></span>
@@ -114,7 +114,7 @@
       </figure>
     </li>
 
-    <li class="banner-xs">
+    <li class="banner-xs visible-lg-inline-block">
       <figure>
         <a href="products-religious.html">
           <span style="background:url(images/banners_home/text/religious.png)" class="txt xs"></span>
@@ -141,7 +141,7 @@
       </figure>
     </li>
 
-    <li class="banner-sm special">
+    <li class="banner-sm special visible-lg-inline-block">
       <figure>
         <a href="products-bracelets.html">
           <span style="background:url(images/banners_home/text/bracelets.png)" class="txt sm special"></span>
@@ -150,7 +150,7 @@
       </figure>
     </li>
 
-    <li class="banner-xs">
+    <li class="banner-xs visible-lg-inline-block">
       <figure>
         <a href="brochure.html">
           <span style="background:url(images/banners_home/text/brochure.png)" class="txt xs"></span>

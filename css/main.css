@@ -819,9 +819,9 @@ fieldset[disabled] .btn-success.active {
   .button-group .button:nth-child(4){border-radius:0 0 0 0;}
   .button-group .button:nth-child(9){border-radius:0 0 0 0;}
   .button-group .button:nth-child(10){border-radius:0 0 0 3px;}
-  .banner-lg {
+  /*.banner-lg {
       display:none !important;
-  }
+  }*/
   .grid li {
     /*width: 100% !important;*/
     width: calc(50% - 2px) !important;
