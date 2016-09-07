@@ -11,18 +11,18 @@
 	 		<div class="redesContacto">
 				<a target="_blank" href="" class="BTN-redes" id="facebook" title="Follow Us on facebook"></a>
 			</div>
-      <div style="clear:both;display:block;width:100%;height:1px; background:#ccc;margin-bottom:20px;"></div>
-<p style="color:#6A512D">
-<span>Toll free / Llame sin costo:</span><br>
-USA: 1 866 406 8031<br>
-MEX: 01 800 831 5940<br>
-INT: +52 (33) 36 55 88 39<br>
-<br>
-<small>Business hours / Horario de atención:<br>
-6AM - 11AM AUSTRALIA STANDAR TIME (UTC)</small>
-</p>
+            <div style="clear:both;display:block;width:100%;height:1px; background:#ccc;margin-bottom:20px;"></div>
+            <p style="color:#6A512D">
+            <span>Toll free / Llame sin costo:</span><br>
+            USA: 1 866 406 8031<br>
+            MEX: 01 800 831 5940<br>
+            INT: +52 (33) 36 55 88 39<br>
+            <br>
+            <small>Business hours / Horario de atención:<br>
+            6AM - 11AM AUSTRALIA STANDAR TIME (UTC)</small>
+            </p>
 
-<div style="clear:both;display:block;width:100%;height:30px;"></div> 
+            <div style="clear:both;display:block;width:100%;height:30px;"></div> 
 
  		</div>
  	</div>
@@ -75,7 +75,7 @@ INT: +52 (33) 36 55 88 39<br>
                     <p>
                     <span class="indicacion">
                       <input type="checkbox" name="avisoPrivacidad" id="avisoPrivacidad" class="required altRequired" title="Check this">
-                      <span>I read and accept the <a href="" target="blank">Terms and conditions.</a></span>
+                      <span>I read and accept the <a href="pdf/aviso_de_privacidad.pdf" target="blank">Terms and conditions.</a></span>
                     </span>                     
                      </p>
                     
